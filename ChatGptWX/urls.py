@@ -20,5 +20,5 @@ from ChatGptWX.chatitf import call_prompt
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('chat_itf/', call_prompt),
+    path('chat_czy/', call_prompt),
 ]
